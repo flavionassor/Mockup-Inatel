@@ -1,0 +1,514 @@
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf) format("truetype");
+}
+
+
+
+#CorpoTeste{
+    position: relative;
+    width: 97vw;
+    left: 0px;
+    top: 0px;
+    overflow-y: scroll;    
+    background: #F0F0F0;    
+}
+
+#retanguloBranco{
+    margin-left: -430px;
+    margin-top: 60px;
+    position: absolute;
+    left: 50%;
+    width: 860px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+#margemFolha{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+#tituloCebecario{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    margin-top: 0;
+
+
+color: #1B50B6;
+    margin-bottom:0;
+}
+
+#retanguloTitulo{
+    margin-top: 10px;
+}
+
+#corpoQuestoes{
+    margin-top: 72px;
+}
+
+#tituloMatematica{
+    width: 351px;
+    height: 28px;
+    left: 350px;
+    top: 234px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+    margin-bottom: 0;
+}
+
+#tituloGeografia{
+    width: 351px;
+    height: 28px;
+    left: 350px;
+    top: 234px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+    margin-bottom: 0;
+    margin-top: 48px;
+}
+
+#tituloHistoria{
+    width: 351px;
+    height: 28px;
+    left: 350px;
+    top: 234px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+    margin-bottom: 0;
+    margin-top: 48px;
+}
+
+#tituloQuestao01{
+    width: 133px;
+    height: 18px;
+    left: 350px;
+    top: 286px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#tituloQuestao02{
+    width: 133px;
+    height: 18px;
+    left: 350px;
+    top: 286px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#tituloQuestao03{
+    width: 133px;
+    height: 18px;
+    left: 350px;
+    top: 286px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#tituloQuestao04{
+    height: 18px;
+    left: 350px;
+    top: 286px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#tituloQuestao05{
+    height: 18px;
+    left: 350px;
+    top: 286px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#tituloQuestao06{
+    height: 18px;
+    left: 350px;
+    top: 286px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#tituloQuestao07{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#tituloQuestao08{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#tituloQuestao09{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+
+#opcao01{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#opcao02{
+    margin-top:16px;
+    margin-bottom:16px
+}
+
+#opcao03{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#opcao04{
+    margin-top:0;
+    margin-bottom:16px
+}
+
+#opcao05{
+    margin-top:0;
+    margin-bottom:16px
+}
+
+#opcao06{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#opcao07{
+    margin-top:0;
+    margin-bottom:16px
+}
+
+#opcao08{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#opcao09{
+    margin-top:16px;
+    margin-bottom:0;
+}
+
+#opcao10{
+    margin-top:0;
+    margin-bottom:16px
+}
+
+#opcao11{
+    margin-top:0;
+    margin-bottom:16px
+}
+
+#opcao12{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#opcao13{
+    margin-top:0;
+    margin-bottom:16px
+}
+
+#opcao14{
+    margin-top:0;
+    margin-bottom:0px
+}
+
+#opcao15{
+    margin-top:16px;
+    margin-bottom:0
+}
+
+#opcao16{
+    margin-top:0;
+    margin-bottom:16px
+}
+
+#opcao17{
+    margin-top:0;
+    margin-bottom:0px
+}
+
+#opcao18{
+    margin-top:16px;
+    margin-bottom:0
+}
+#opcao19{
+    margin-top:0;
+    margin-bottom:16px
+}
+
+#opcao20{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#opcao21{
+    margin-top:16px;
+    margin-bottom:0
+}
+
+#opcao22{
+    margin-top:0;
+    margin-bottom:16px
+}
+
+#opcao23{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#opcao24{
+    margin-top:16px;
+    margin-bottom:0
+}
+
+#opcao25{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#opcao26{
+    margin-top:16px;
+    margin-bottom:16px
+}
+
+#opcao27{
+    margin-top:0;
+    margin-bottom:0
+}
+
+#retanguloQuestao01{
+    margin-top:24px;
+    margin-bottom:0;
+}
+#retanguloQuestao02{
+    margin-top:24px;
+    margin-bottom:0;
+}
+
+#retanguloQuestao03{
+    margin-top:24px;
+    margin-bottom:0;
+}
+#retanguloQuestao04{
+    margin-top:24px;
+    margin-bottom:0;
+}
+
+#retanguloQuestao05{
+    margin-top:24px;
+    margin-bottom:0;
+}
+#retanguloQuestao06{
+    margin-top:24px;
+    margin-bottom:0;
+}
+
+#botoes{
+    float:right;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+button{
+    width: 235px;
+    height: 56px;
+    background: #1B50B6;
+    border-radius: 8px;
+}
+
+#btnEnviar{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    vertical-align: -15%;
+}
+
+label{
+    margin-left: 4px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px; 
+    color: #222222;
+}
+
+#questaoMat01{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+#questaoMat02{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+#questaoMat03{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+#questaoHist01{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+#questaoHist02{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+#questaoHist03{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+#questaoGeo01{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+#questaoGeo02{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+#questaoGeo03{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+#cancelar{
+    width: 65px;
+    height: 18px;
+    left: 706px;
+    top: 2061px;
+    margin-right: 60px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1B50B6;
+}

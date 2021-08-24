@@ -1,0 +1,265 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf) format("truetype");
+}
+
+#valorNota{
+    margin-top: 48px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 55px;
+    color: #222222;
+}
+
+#infoTeste{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 88px;
+    color: #222222;
+}
+
+#msgFinal{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    text-align: center;
+    margin-top:72px;
+    margin-bottom:60px;
+}
+
+
+
+.resultado{
+    background: #FFFFFF;
+    border: 1px solid #1B50B6;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#secaoBotao{
+    margin-top:172px;
+    text-align: center;
+}
+
+#btnGabarito{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1B50B6;
+}
+
+#secaoGrafico{
+    height: 500px;
+    width: 740px;
+    text-align: center;
+}
+
+#eixoY{
+    position:absolute;
+    width: 1px;
+    height: 500px;
+    left: 140px;
+    top: 386px;
+    background: #4C4C4C;
+}
+
+#eixoX{
+    position:absolute;
+    height: 1px;
+    width: 561px;
+    left: 140px;
+    top: 886px;
+
+    background: #4C4C4C;
+}
+
+#barraMat{
+    position: absolute;
+    width: 60px;
+    height: 308px;
+    left: 200px;
+    top: 578px;
+    background-color: #1B50B6;
+}
+
+#matAcerto{
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    left: 260px;
+    top: 881px;
+
+    background: #9EBAEF;
+}
+
+#totalMat{
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    left: 225px;
+    top: 545px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#valorMat{
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    left: 285px;
+    top: 847px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#legendaMatematica{
+    position: absolute;
+    width: 76px;
+    height: 16px;
+    left: 225px;
+    top: 890px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#barraHist{
+    position: absolute;
+    width: 60px;
+    height: 308px;
+    left: 380px;
+    top: 578px;
+    background-color: #1B50B6;
+}
+
+#histAcerto{
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    left: 440px;
+    top: 881px;
+    background: #9EBAEF;
+}
+
+#totalHist{
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    left: 405px;
+    top: 545px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#valorHist{
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    left: 465px;
+    top: 847px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#legendaHistoria{
+    position: absolute;
+    width: 76px;
+    height: 16px;
+    left: 405px;
+    top: 890px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#barraGeo{
+    position: absolute;
+    width: 60px;
+    height: 308px;
+    left: 560px;
+    top: 578px;
+    background-color: #1B50B6;
+}
+
+#geoAcerto{
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    left: 620px;
+    top: 881px;
+    background: #9EBAEF;
+}
+
+#totalGeo{
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    left: 585px;
+    top: 545px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#valorGeo{
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    left: 645px;
+    top: 847px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#legendaGeografia{
+    position: absolute;
+    width: 76px;
+    height: 16px;
+    left: 585px;
+    top: 890px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}

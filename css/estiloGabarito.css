@@ -1,0 +1,621 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf) format("truetype");
+}
+
+#voltar{
+    width: 65px;
+    height: 18px;
+    left: 706px;
+    top: 2061px;
+    margin-right: 60px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1B50B6;
+}
+
+#botaoVoltar{
+    float:left;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#quadradoPrincipal{
+	visibility:hidden;
+}
+
+.quadradoPrincipal {
+	width: 400px;
+	height: 15px;
+	background: #ffffff;	
+	position: relative;
+    text-align: left;
+}
+
+.quadradoPrincipal input[type=checkbox]{
+	visibility:hidden;
+}
+
+.quadradoPrincipal #respostaCerta01 {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);		
+}
+
+.quadradoPrincipal #respostaCerta01:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta01{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #1B50B6 0%, #1B50B6 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta01:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta01{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta01:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal #respostaCerta02 {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);	
+}
+
+.quadradoPrincipal #respostaCerta02:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta02{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #1B50B6 0%, #1B50B6 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta02:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta02{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta02:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal #respostaCerta03 {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);	
+}
+
+.quadradoPrincipal #respostaCerta03:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta03{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #1B50B6 0%, #1B50B6 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta03:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta03{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta03:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal #respostaCerta04 {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);		
+}
+
+.quadradoPrincipal #respostaCerta04:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta04{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #1B50B6 0%, #1B50B6 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta04:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta04{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta04:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal #respostaCerta05 {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);	
+}
+
+.quadradoPrincipal #respostaCerta05:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta05{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #1B50B6 0%, #1B50B6 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta05:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta05{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta05:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal #respostaCerta06 {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);	
+}
+
+.quadradoPrincipal #respostaCerta06:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta06{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #1B50B6 0%, #1B50B6 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta06:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta06{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta06:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal #respostaCerta07 {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);		
+}
+
+.quadradoPrincipal #respostaCerta07:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta07{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #1B50B6 0%, #1B50B6 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta07:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta07{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta07:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal #respostaCerta08 {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+    border-radius: 3px;
+
+	background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);	
+}
+
+.quadradoPrincipal #respostaCerta08:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta08{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #1B50B6 0%, #1B50B6 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta08:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta08{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta08:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal #respostaCerta09 {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+    border-radius: 3px;
+	background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);	
+}
+
+.quadradoPrincipal #respostaCerta09:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta09{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #1B50B6 0%, #1B50B6 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:checked + #respostaCerta09:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta09{
+    border-color: white;
+    width: 16px;
+	height: 16px;
+    background: -webkit-linear-gradient(top, #B61B37 0%, #B61B37 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.quadradoPrincipal input[type=checkbox]:not(:checked) + #respostaCerta09:after{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
