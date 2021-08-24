@@ -1,0 +1,120 @@
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <title>Resultado</title>
+    <link href="../css/estiloTeste.css" rel="stylesheet"/>   
+    <link href="../css/estiloResultado.css" rel="stylesheet"/>  
+    <script src="../js/script.js"></script>
+</head>
+<!--corpo do projeto-->
+<body id="CorpoTeste" onload="calcGraph()">
+    
+    <div id="retanguloBranco">
+        <div id="margemFolha">           
+           <!--Titulo da pagina-->
+            <header id="cabecarioCompleto">
+                <p id="tituloCebecario">Teste de Conhecimentos</p> 
+                <svg width="618px" height="4px" id="retanguloTitulo">
+                    <rect id="retanguloTitulo" width="618px" height="4px" style="fill:#1B50B6;" />
+                </svg>
+            </header> 
+
+            <!--Resultado-->
+            <section>
+
+                <p id="valorNota">
+                    Parabéns! Você tirou 'nota'.
+                </p>
+
+                <p id="infoTeste">
+                    O teste vale 100 pontos, e a nota necessária é 70.
+                </p>
+            <!--Grafico-->
+            </section>
+            <section id="secaoGrafico">
+                    <svg id="eixoY">
+                        <rect/>
+                    </svg>
+                    <svg id="barraMat">
+                        <rect/>
+                    </svg>
+                    <p id="totalMat">
+                        3
+                    </p>
+                    <svg id="matAcerto">
+                        <rect/>
+                    </svg>
+                    <p id="valorMat">
+                        0
+                    </p>
+                    <svg id="eixoX">
+                        <rect/>
+                    </svg>
+                    <p id="legendaMatematica">
+                        Matemática
+                    </p>
+
+                
+                    <svg id="barraGeo">
+                        <rect/>
+                    </svg>
+                    <p id="totalGeo">
+                        3
+                    </p>
+                    <svg id="geoAcerto">
+                        <rect/>
+                    </svg>
+                    <p id="valorGeo">
+                        0
+                    </p>
+                    <p id="legendaGeografia">
+                        Geografia
+                    </p>
+
+                    <svg id="barraHist">
+                        <rect/>
+                    </svg>
+                    <p id="totalHist">
+                        3
+                    </p>
+                    <svg id="histAcerto">
+                        <rect/>
+                    </svg>
+                    <p id="valorHist">
+                        0
+                    </p>
+                    <p id="legendaHistoria">
+                        História
+                    </p>
+                
+            </section>
+
+            <!--botão para o gabarito-->
+            <Section id="secaoBotao">
+
+                <a href="gabarito.html">
+                    <button type="button" class="resultado">
+                        <p id="btnGabarito">
+                            Ver Gabarito
+                        </p>
+                    </button>
+                </a>
+                    
+
+            </Section>
+            <!--mensagem final da pagina-->
+            <section>
+
+                <p id="msgFinal">
+                    Em breve entraremos em contato para a próxima fase. Obrigado!
+                </p>
+
+            </section>
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>
