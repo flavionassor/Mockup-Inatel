@@ -1,0 +1,225 @@
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <title>Teste</title>
+    <link href="css/estiloTeste.css" rel="stylesheet"/>
+    
+    <script src="js/script.js"></script>
+</head>
+<!--corpo do projeto-->
+<body id="CorpoTeste">
+    
+    <div id="retanguloBranco">
+        <form action="paginas/resultado.html" method="post" id="margemFolha">
+            <!--Titulo da pagina-->
+            <header id="cabecarioCompleto">
+                <p id="tituloCebecario">Teste de Conhecimentos</p> 
+                <svg width="618px" height="4px" id="retanguloTitulo">
+                    <rect id="retanguloTitulo" width="618px" height="4px" style="fill:#1B50B6;" />
+                </svg>
+            </header> 
+
+            <!--Corpo de todas as discipinas-->
+            <section id="corpoQuestoes">
+
+                <!--Disciplina de matemática-->
+                <article id="corpoMatematica">
+
+                    <!--Titulo da disciplina Matemática-->
+                    <header id="tituloMatematica">
+                        <p>Conhecimentos em Matemática</p>
+                    </header>
+                    
+                    <!--Questoes de matemática-->
+                    <section id="questoesMatematica">
+                        
+                        <!--titulo questão individual de matemática-->
+                        <p id="tituloQuestao01">01. Quanto é 2+2?</p>
+                        
+                        <!--Questão individual de matemática-->
+                        <div class="container" id="questaoMat01">
+                            <input type="checkbox" id="opcao01" name="questao01" value="4" onclick="onlyOne(this,0)">
+                            <label for="opcao01"> 4 </label><br>
+                            <input type="checkbox" id="opcao02" name="questao01" value="5" onclick="onlyOne(this,0)"> 
+                            <label for="opcao02"> 5</label><br>
+                            <input type="checkbox" id="opcao03" name="questao01" value="8" onclick="onlyOne(this,0)">
+                            <label for="opcao03"> 8</label><br>
+                        </div>
+
+                        <!--Retangulo de separação-->
+                        <svg width="616px" height="1px" id="retanguloQuestao01">
+                            <rect width="616px" height="1px" style="fill:#C4C4C4;" />
+                        </svg>
+
+                        <!--titulo questão individual de matemática-->
+                        <p id="tituloQuestao02">02. Quanto é 2+2?</p>
+
+                        <!--Questão individual de matemática-->
+                        <div class="container" id="questaoMat02">
+                            <input type="checkbox" id="opcao04" name="questao02" value="4" onclick="onlyOne(this,1)">
+                            <label for="opcao04"> 4 </label><br>
+                            <input type="checkbox" id="opcao05" name="questao02" value="5" onclick="onlyOne(this,1)">
+                            <label for="opcao05"> 5</label><br>
+                            <input type="checkbox" id="opcao06" name="questao02" value="8" onclick="onlyOne(this,1)">
+                            <label for="opcao06"> 8</label><br>
+                        </div>
+
+                        <!--Retangulo de separação-->
+                        <svg width="616px" height="1px" id="retanguloQuestao02">
+                            <rect width="616px" height="1px" style="fill:#C4C4C4;" />
+                        </svg>
+
+                        <!--titulo questão individual de matemática-->
+                        <p id="tituloQuestao03">03. Quanto é 2+2?</p>
+
+                        <!--Questão individual de matemática-->
+                        <div class="container" id="questaoMat03">
+                            <input type="checkbox" id="opcao07" name="questao03" value="4" onclick="onlyOne(this,2)">
+                            <label for="opcao07"> 4 </label><br>
+                            <input type="checkbox" id="opcao08" name="questao03" value="5" onclick="onlyOne(this,2)">
+                            <label for="opcao08"> 5</label><br>
+                            <input type="checkbox" id="opcao09" name="questao03" value="8" onclick="onlyOne(this,2)">
+                            <label for="opcao09"> 8</label><br>
+                        </div>
+                    </section>            
+                </article>
+        
+                <!--Disciplina de história-->
+                <article id="corpoHistoria">
+
+                    <!--Titulo da disciplina história-->
+                    <header id="tituloHistoria">
+                        <p>Conhecimentos em História</p>
+                    </header>
+
+                    <!--Questoes de História-->
+                    <section id="questoesHistoria">
+
+                        <!--titulo questão individual de história-->
+                        <p id="tituloQuestao04">04. Quem descobriu o Brasil?</p>
+
+                        <!--Questão individual de História-->
+                        <div class="container" id="questaoHist01">
+                            <input type="checkbox" id="opcao10" name="questao04" value="Pero Vaz de Caminha" onclick="onlyOne(this,3)">
+                            <label for="opcao10"> Pero Vaz de Caminha</label><br>
+                            <input type="checkbox" id="opcao11" name="questao04" value="Machado de Assis" onclick="onlyOne(this,3)">
+                            <label for="opcao11"> Machado de Assis</label><br>
+                            <input type="checkbox" id="opcao12" name="questao04" value="Pedro Álvares Cabral" onclick="onlyOne(this,3)">
+                            <label for="opcao12"> Pedro Álvares Cabral</label><br>
+                        </div>
+
+                        <!--Retangulo de separação-->
+                        <svg width="616px" height="1px" id="retanguloQuestao03">
+                            <rect width="616px" height="1px" style="fill:#C4C4C4;" />
+                        </svg>
+                        
+                        <!--titulo questão individual de história-->
+                        <p id="tituloQuestao05">05. Quem descobriu o Brasil?</p>
+
+                        <!--Questão individual de História-->
+                        <div class="container" id="questaoHist02">
+                            <input type="checkbox" id="opcao13" name="questao05" value="Pero Vaz de Caminha" onclick="onlyOne(this,4)">
+                            <label for="opcao13"> Pero Vaz de Caminha</label><br>
+                            <input type="checkbox" id="opcao14" name="questao05" value="Machado de Assis" onclick="onlyOne(this,4)">
+                            <label for="opcao14"> Machado de Assis</label><br>
+                            <input type="checkbox" id="opcao15" name="questao05" value="Pedro Álvares Cabral" onclick="onlyOne(this,4)">
+                            <label for="opcao15"> Pedro Álvares Cabral</label><br>
+                        </div>
+
+                        <!--Retangulo de separação-->
+                        <svg width="616px" height="1px" id="retanguloQuestao04">
+                            <rect width="616px" height="1px" style="fill:#C4C4C4;" />
+                        </svg>
+                        
+                        <!--titulo questão individual de história-->
+                        <p id="tituloQuestao06">06. Quem descobriu o Brasil?</p>
+
+                        <!--Questão individual de História-->
+                        <div class="container" id="questaoHist03">
+                            <input type="checkbox" id="opcao16" name="questao06" value="Pero Vaz de Caminha" onclick="onlyOne(this,5)">
+                            <label for="opcao16"> Pero Vaz de Caminha</label><br>
+                            <input type="checkbox" id="opcao17" name="questao06" value="Machado de Assis" onclick="onlyOne(this,5)">
+                            <label for="opcao17"> Machado de Assis</label><br>
+                            <input type="checkbox" id="opcao18" name="questao06" value="Pedro Álvares Cabral" onclick="onlyOne(this,5)">
+                            <label for="opcao18"> Pedro Álvares Cabral</label><br>
+                        </div>
+                    </section>            
+                </article>
+
+                <!--Disciplina de geografia-->
+                <article id="corpoGeografia">
+
+                    <!--Titulo da disciplina história-->
+                    <header id="tituloGeografia">
+                        <p>Conhecimentos em Geografia</p>
+                    </header>
+
+                    <!--Questoes de geografia-->
+                    <section id="questoesGeografia">
+
+                        <!--titulo questão individual de história-->
+                        <p id="tituloQuestao07">07. Qual ecossistema predomina no estado de Minas Gerais?</p>
+
+                        <!--Questão individual de geografia-->
+                        <div class="container" id="questaoGeo01">
+                            <input type="checkbox" id="opcao19" name="questao07" value="Mata Atlântica" onclick="onlyOne(this,6)">
+                            <label for="opcao19"> Mata Atlântica</label><br>
+                            <input type="checkbox" id="opcao20" name="questao07" value="Caatinga" onclick="onlyOne(this,6)">
+                            <label for="opcao20"> Caatinga</label><br>
+                            <input type="checkbox" id="opcao21" name="questao07" value="Cerrado" onclick="onlyOne(this,6)">
+                            <label for="opcao21"> Cerrado</label><br>
+                        </div>
+
+                        <!--Retangulo de separação-->
+                        <svg width="616px" height="1px" id="retanguloQuestao05">
+                            <rect width="616px" height="1px" style="fill:#C4C4C4;" />
+                        </svg>
+            
+                        <!--titulo questão individual de história-->
+                        <p id="tituloQuestao08">08. Qual ecossistema predomina no estado de Minas Gerais?</p>
+
+                        <div class="container" id="questaoGeo02">
+                            <input type="checkbox" id="opcao22" name="questao08" value="Mata Atlântica" onclick="onlyOne(this,7)">
+                            <label for="opcao22"> Mata Atlântica</label><br>
+                            <input type="checkbox" id="opcao23" name="questao08" value="Caatinga" onclick="onlyOne(this,7)">
+                            <label for="opcao23"> Caatinga</label><br>
+                            <input type="checkbox" id="opcao24" name="questao08" value="Cerrado" onclick="onlyOne(this,7)">
+                            <label for="opcao24"> Cerrado</label><br>
+                        </div>
+
+                        <!--Retangulo de separação-->
+                        <svg width="616px" height="1px" id="retanguloQuestao06">
+                            <rect width="616px" height="1px" style="fill:#C4C4C4;" />
+                        </svg>
+            
+                        <!--titulo questão individual de história-->
+                        <p id="tituloQuestao09">09. Qual ecossistema predomina no estado de Minas Gerais?</p>
+
+                        <div class="container" id="questaoGeo03">
+                            <input type="checkbox" id="opcao25" name="questao09" value="Mata Atlântica" onclick="onlyOne(this,8)">
+                            <label for="opcao25"> Mata Atlântica</label><br>
+                            <input type="checkbox" id="opcao26" name="questao09" value="Caatinga" onclick="onlyOne(this,8)">
+                            <label for="opcao26"> Caatinga</label><br>
+                            <input type="checkbox" id="opcao27" name="questao09" value="Cerrado" onclick="onlyOne(this,8)">
+                            <label for="opcao27"> Cerrado</label><br>
+                        </div>
+                    </section>                               
+                </article>
+            </section>  
+            <!--Botao cancelar e enviar-->
+            <div  id="Botoes">
+                <a id="cancelar" href="#"> Cancel </a>
+                <!--Enviar teste para avialiação-->
+                <button  type="submit" onclick="handleSubmit()">
+                    <p id="btnEnviar">
+                        Enviar
+                    </p>
+                </button>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
